@@ -1,0 +1,16 @@
+#cesiumContainer {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: flex-start; /* Align content to the top vertically */
+    height: 50vh;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15px;
+}
+
+.cesium-widget{
+    border-radius: 15px;
+}
+
+/*# sourceMappingURL=/style.42ef3db2.css.map */

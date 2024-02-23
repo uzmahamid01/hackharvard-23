@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="hackharvard" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/jpv1bvw.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/button.css" />
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+    <!-- Add your Cesium CSS and JavaScript links here -->
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.110/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <!-- Add your Cesium JavaScript link here -->
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.110/Build/Cesium/Cesium.js"></script>
+    <!-- Add your custom CSS and JavaScript links here -->
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body class="demo-4">
+    <div class="globe" id="cesiumContainer"></div>
+    <script src="/static/js/script.js"></script>
+<main>
+    <div class="content">
+        <button class="button">
+            <div class="button__filler"></div>
+            <span class="button__text">
+                <span class="button__text-inner">Watch</span>
+            </span>
+        </button>
+    </div>
+</main>
+<svg class="cursor" width="25" height="25" viewBox="0 0 25 25">
+    <circle class="cursor__inner" cx="12.5" cy="12.5" r="6.25" />
+</svg>
+<script src="/static/js/demo.js"></script>
+<script src="/static/js/demo4/index.js"></script>
+<script src="/static/js/send.js"></script>
+</body>
+</html>
